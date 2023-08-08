@@ -1,0 +1,12 @@
+.card {
+    min-height: 200px;
+  }
+  .card-title {
+    text-decoration: underline;
+  }
+  
+  .btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }

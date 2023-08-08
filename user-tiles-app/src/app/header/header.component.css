@@ -1,0 +1,47 @@
+.header-menu {
+    background-color: #EEEEEE;
+    padding: 10px;
+    margin-right: 20px;
+    color: black;
+  }
+  
+  .header-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-menu li {
+    display: inline;
+    margin-right: 5px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .dropdown > .fa-caret-down {
+    margin-left: 5px;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+  
+  .dropdown-menu.show {
+    display: block;
+  }
+  
+  .dropdown-menu li {
+    display: block;
+    padding: 5px 0;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #eeeeee;
+  }

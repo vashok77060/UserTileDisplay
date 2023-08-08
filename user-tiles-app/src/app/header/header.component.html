@@ -1,0 +1,12 @@
+<nav class="header-menu">
+    <ul>
+      <li class="dropdown" (click)="toggleMenu()" [class.open]="isMenuOpen">
+        Menu <i class="fas fa-caret-down"></i>
+        <ul class="dropdown-menu" [class.show]="isMenuOpen">
+          <li>Option 1</li>
+          <li>Option 2</li>
+          <li>Option 3</li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
